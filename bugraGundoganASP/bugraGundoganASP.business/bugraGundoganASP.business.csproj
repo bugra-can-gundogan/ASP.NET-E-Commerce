@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\bugraGundoganASP.entity\bugraGundoganASP.entity.csproj"></ProjectReference>
+		<ProjectReference Include="..\bugraGundoganASP.data\bugraGundoganASP.data.csproj"></ProjectReference>
+	</ItemGroup>
+</Project>

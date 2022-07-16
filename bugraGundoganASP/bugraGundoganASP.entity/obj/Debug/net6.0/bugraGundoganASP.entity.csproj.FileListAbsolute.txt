@@ -1,0 +1,12 @@
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\bin\Debug\net6.0\bugraGundoganASP.entity.deps.json
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\bin\Debug\net6.0\bugraGundoganASP.entity.dll
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\bin\Debug\net6.0\bugraGundoganASP.entity.pdb
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\bugraGundoganASP.entity.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\bugraGundoganASP.entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\bugraGundoganASP.entity.AssemblyInfoInputs.cache
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\bugraGundoganASP.entity.AssemblyInfo.cs
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\bugraGundoganASP.entity.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\bugraGundoganASP.entity.dll
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\refint\bugraGundoganASP.entity.dll
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\bugraGundoganASP.entity.pdb
+C:\Users\bugra\Desktop\BCG-ASP\bugraGundoganASP\bugraGundoganASP.entity\obj\Debug\net6.0\ref\bugraGundoganASP.entity.dll

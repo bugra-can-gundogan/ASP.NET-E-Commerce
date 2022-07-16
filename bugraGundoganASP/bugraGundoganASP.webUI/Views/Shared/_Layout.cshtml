@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+     @RenderSection("Css",false)
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>BugraGundoganASP</title>
+</head>
+<body style="background-color: #DCD7C9;">
+
+    @await Html.PartialAsync("_navbar")          
+    <div class="container" style="min-height:100vh;">
+        <main class="my-3">
+            <div class="container">     
+
+                @if(TempData["message"]!=null)
+                {
+                    <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+                }      
+             
+                @RenderBody()             
+            </div>
+        </main>
+    </div>
+
+
+    <footer class="py-5 bg-dark text-white text-center footer">
+        Buðra Can Gündoðan - 195050003
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    @RenderSection("Scripts",false)
+</body>
+</html>

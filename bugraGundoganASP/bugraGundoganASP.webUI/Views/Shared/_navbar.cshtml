@@ -1,0 +1,74 @@
+<div style="background-color:#377D71;" class="navbar navbar-dark navbar-expand-sm">
+    <div class="container">
+        <a href="/" class="navbar-brand">BugraGundoganASP</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="/products" class="nav-link">
+                    <i class="fa-brands fa-product-hunt"></i> &nbsp;
+                    Products</a>
+            </li>
+
+            @if(User.Identity.IsAuthenticated)
+            {
+                @if (!User.IsInRole("admin"))
+                {
+                    <li class="nav-item">
+                        <a href="/cart" class="nav-link">
+                            <i class="fa-solid fa-basket-shopping"></i>&nbsp;
+                            Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/orders" class="nav-link">
+                            <i class="fa-solid fa-rectangle-history"></i>&nbsp;
+                            Orders</a>
+                    </li> 
+                }                 
+
+                if(User.IsInRole("admin"))
+                {
+                    <li class="nav-item">
+                    <a href="/admin/products" class="nav-link">
+                        Admin Products
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/categories" class="nav-link">
+                            Admin Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/role/list" class="nav-link">Roles</a>
+                    </li>
+                        <li class="nav-item">
+                        <a href="/admin/user/list" class="nav-link">Users</a>
+                    </li>
+                }                      
+            }
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
+            @if(User.Identity.IsAuthenticated)
+            {
+                <li class="nav-item">
+                    <a class="nav-link">
+                        @User.Identity.Name
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/account/logout" class="nav-link">Logout</a>
+                </li>
+            }
+            else
+            {                    
+                <li class="nav-item">
+                    <a href="/account/login" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/account/register" class="nav-link">Register</a>
+                </li>    
+            }
+        </ul>
+
+
+    </div>
+</div>
